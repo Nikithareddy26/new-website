@@ -6,6 +6,13 @@
 
   @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Noto+Sans:wght@200&display=swap");
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Playpen+Sans:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Playpen+Sans:wght@200&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display:ital@1&family=Playpen+Sans:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=PT+Serif:ital@1&family=Playfair+Display:ital@1&family=Playpen+Sans:wght@200&display=swap');
+
+  
+
 
 #circle {
   width: 25px;
@@ -164,9 +171,61 @@
   justify-content: space-between;
   padding: 80px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+@media (max-width: 768px) {
+  #footer{
+    flex-direction: column;
+    gap: 20px;
+  
+  }
+  
+}
+#email{
+  font-family: 'Playfair Display', serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'PT Serif', serif;
+
+}
+@media (max-width: 768px) {
+  
+
+#email{
+  padding-left: 60px;
+}
+}
+#follow{
+  
+  font-family: 'Playfair Display', serif;
+  font-family: 'Playpen Sans', cursive;
+  font-family: 'PT Serif', serif;
+
+}
+@media (max-width:768px) {
+  #follow{
+    padding-right: 60px;
+  }
+  
+}
+#no{
+  font-weight: lighter;
+}
+@media (max-width: 768px) {
+  #no{
+    padding-left: 60px;
+  }
+  
 }
 #number{
   font-weight: lighter;
+  margin-left:  -10px;
+  
+}
+@media (max-width: 768px) {
+  #number{
+    
+  }
+  
 }
 a {
   text-decoration: none;
@@ -248,4 +307,42 @@ a {
 
 #ul {
   margin-top: 10px;
+}
+#phone{
+  font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'PT Serif', serif;
+
+}
+
+@media (max-width:768px) {
+  #phone{
+    padding-right: 80px;
+
+  }
+  
+}
+
+
+
+#tagline2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#contact-main{
+  margin-left: 50px;
+}
+#idd{
+  font-family: 'Playpen Sans', cursive;
+}
+#contact-heading{
+  font-family: 'Playpen Sans', cursive;
+}
+#contact-detail{
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
